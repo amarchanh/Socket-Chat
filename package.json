@@ -1,0 +1,19 @@
+{
+  "name": "curso-sockets",
+  "version": "1.0.0",
+  "description": "Proyecto Chat con NodeJS y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Marchante",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
